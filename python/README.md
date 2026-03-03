@@ -30,39 +30,39 @@ Patterns）``, ``行为型模式（Behavioral Patterns）``
 > 这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些
 > 对象时更加灵活
 
-+ [工厂模式（Factory Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/creational_patterns/factory.py)
-+ [抽象工厂模式（Abstract Factory Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/creational_patterns/abstract_factory.py)
-+ [单例模式（Singleton Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/creational_patterns/singleton.py)
-+ [建造者模式（Builder Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/creational_patterns/builder.py)
-+ [原型模式（Prototype Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/creational_patterns/prototype.py)
++ [工厂模式（Factory Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/creational_patterns/factory.py)
++ [抽象工厂模式（Abstract Factory Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/creational_patterns/abstract_factory.py)
++ [单例模式（Singleton Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/creational_patterns/singleton.py)
++ [建造者模式（Builder Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/creational_patterns/builder.py)
++ [原型模式（Prototype Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/creational_patterns/prototype.py)
 
 ### 2.2 结构型
 > 这些设计模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。
 
-+ [适配器模式（Adapter Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/behavioral_patterns/adapter.py)
-+ [桥接模式（Bridge Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/behavioral_patterns/bridge.py)
-+ [过滤器模式（Filter, Criteria Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/behavioral_patterns/criteria.py)
-+ [组合模式（Composite Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/behavioral_patterns/composite.py)
-+ [装饰器模式（Decorator Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/behavioral_patterns/decorator.py)
-+ [外观模式（Facade Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/behavioral_patterns/facade.py)
-+ [享元模式（Flyweight Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/behavioral_patterns/flyweight.py)
-+ [代理模式（Flyweight Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/behavioral_patterns/proxy.py)
++ [适配器模式（Adapter Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/behavioral_patterns/adapter.py)
++ [桥接模式（Bridge Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/behavioral_patterns/bridge.py)
++ [过滤器模式（Filter, Criteria Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/behavioral_patterns/criteria.py)
++ [组合模式（Composite Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/behavioral_patterns/composite.py)
++ [装饰器模式（Decorator Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/behavioral_patterns/decorator.py)
++ [外观模式（Facade Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/behavioral_patterns/facade.py)
++ [享元模式（Flyweight Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/behavioral_patterns/flyweight.py)
++ [代理模式（Flyweight Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/behavioral_patterns/proxy.py)
 
 ### 2.3 行为型
 > 这些设计模式特别关注对象之间的通信。	
 
-+ [责任链模式（Chain of Responsibility Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/structural_patterns/responsibility_chain.py)
-+ [命令模式（Command Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/structural_patterns/command.py)
-+ [解释器模式（Interpreter Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/structural_patterns/interpreter.py)
-+ [迭代器模式（Iterator Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/structural_patterns/iterator.py)
-+ [中介者模式（Mediator Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/structural_patterns/mediator.py)
-+ [备忘录模式（Memento Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/structural_patterns/memento.py)
-+ [观察者模式（Observer Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/structural_patterns/observer.py)
-+ [状态模式（State Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/structural_patterns/state.py)
-+ [空对象模式（Null Object Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/structural_patterns/null_object.py)
-+ [策略模式（Strategy Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/structural_patterns/strategy.py)
-+ [模板模式（Template Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/structural_patterns/template.py)
-+ [访问者模式（Visitor Pattern）](https://gitcode.net/qq_29491663/learning_notes/-/blob/master/design_modes/structural_patterns/visitor.py)
++ [责任链模式（Chain of Responsibility Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/structural_patterns/responsibility_chain.py)
++ [命令模式（Command Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/structural_patterns/command.py)
++ [解释器模式（Interpreter Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/structural_patterns/interpreter.py)
++ [迭代器模式（Iterator Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/structural_patterns/iterator.py)
++ [中介者模式（Mediator Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/structural_patterns/mediator.py)
++ [备忘录模式（Memento Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/structural_patterns/memento.py)
++ [观察者模式（Observer Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/structural_patterns/observer.py)
++ [状态模式（State Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/structural_patterns/state.py)
++ [空对象模式（Null Object Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/structural_patterns/null_object.py)
++ [策略模式（Strategy Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/structural_patterns/strategy.py)
++ [模板模式（Template Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/structural_patterns/template.py)
++ [访问者模式（Visitor Pattern）](https://github.com/XbShadow/DesignMode/tree/master/python/structural_patterns/visitor.py)
 
 
 参考[菜鸟教程-设计模式](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
